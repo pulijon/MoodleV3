@@ -39,7 +39,7 @@ To stop the machine:
 1. Use a console to go to the folder where the Vagrantfile is located
 1. Execute vagrant halt
 
-All other times, except the first time:
+All other times, except the first time, to start the virtual machine:
 1. Use a console to go to the folder where the Vagrantfile is located
 1. Execute vagrant up
 
@@ -48,6 +48,12 @@ is \<machine id\>. You may find it out executing:
 
 ```bash
 vagrabt global-status
+```
+
+You could also (though it shoudn't be necessary) enter to the virtual machine with:
+
+```bash
+vagrant ssh \<machine id\>
 ```
 
 You should note that everything that is created with vagrant should be managed with vagrant. DON'T USE THE VIRTUALBOX CONSOLE OR THE VIRTUALBOX CLI TO START OR STOP VAGRANT MACHINES
