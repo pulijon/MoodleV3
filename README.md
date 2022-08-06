@@ -53,7 +53,7 @@ vagrabt global-status
 You could also (though it shoudn't be necessary) enter to the virtual machine with:
 
 ```bash
-vagrant ssh \<machine id\>
+vagrant ssh <machine id>
 ```
 
 You should note that everything that is created with vagrant should be managed with vagrant. DON'T USE THE VIRTUALBOX CONSOLE OR THE VIRTUALBOX CLI TO START OR STOP VAGRANT MACHINES
