@@ -28,6 +28,7 @@ Regarding the software, you should have installed:
 
 The first time you use the machine you should:
 1. Create a folder (e.g. c:\VagBoxes\MoodleV3)
+1. Download the contents of this repo to that folder
 1. Use a console (cmd, powershell, bash, etc.) to go to that folder.
 1. Execute vagrant up
 1. Wait until the process finishes.
