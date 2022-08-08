@@ -58,3 +58,19 @@ vagrant ssh <machine id>
 ```
 
 You should note that everything that is created with vagrant should be managed with vagrant. DON'T USE THE VIRTUALBOX CONSOLE NOR THE VIRTUALBOX CLI TO START OR STOP VAGRANT MACHINES
+
+If you want to restore a backup with a next-next-next procedure (of course, you can make any changes you wish), you should:
+1. Log in (admin/moodle)
+1. Dashboard -> Site aministration -> Courses -> Restore course.
+1. Drag and drop the backup file (extension .mbz)
+1. Press Restore Button
+1. Go to the end of the next page and click Continue
+1. Click in the Miscellaneous option button
+1. Press Continue
+1. At the end of the next page click Next
+1. Once again, at the end of the next page, click Next
+1. At the end of the next (Review) page, click Perform Restore
+
+
+
+
