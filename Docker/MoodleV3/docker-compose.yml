@@ -15,6 +15,7 @@ services:
   moodle:
     restart: always
     image: docker.io/bitnami/moodle:3
+    restart: always
     ports:
       - '80:8080'
       - '443:8443'
@@ -28,6 +29,8 @@ services:
       - MOODLE_USERNAME=admin
       - MOODLE_PASSWORD=moodle
       - MOODLE_SITE_NAME='Local Installation'
+      - PHP_POST_MAX_SIZE=500M
+      - PHP_UPLOAD_MAX_FILESIZE=500M
     volumes:
       - 'moodle_data:/bitnami/moodle'
       - 'moodledata_data:/bitnami/moodledata'
